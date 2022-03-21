@@ -33,7 +33,7 @@ async def   inline_handler(query: types.InlineQuery):
             id = result_id,
             title = 'Share Your Cock Size',
             input_message_content=types.InputTextMessageContent(
-                message_text=f'your cock size is <b>{cocksize}cm</b>{emoji1}'
+                message_text=f'my cock size is <b>{cocksize}cm</b>{emoji1}'
             )
         )]
     elif 10 <= cocksize <= 14:
