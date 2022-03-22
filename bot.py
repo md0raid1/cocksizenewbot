@@ -1,10 +1,7 @@
-from cgitb import text
-from functools import cache
 import os, hashlib
 import random
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher, executor, types
-from aiogram.types import InputTextMessageContent, InlineQueryResultArticle
 
 
 load_dotenv()
